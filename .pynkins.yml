@@ -1,0 +1,11 @@
+---
+version: 1
+before_script:
+  - touch before.txt
+after_script:
+  - touch after.txt
+variables:
+  DATABASE_URL: "postgres://postgres@postgres/my_database"
+  ewdew: edwe
+script:
+  - touch after.txt
